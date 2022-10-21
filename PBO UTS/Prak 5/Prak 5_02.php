@@ -60,12 +60,12 @@ class SoalNo1
     public static
     function main($args)
     {
-        echo "21091397005 Salsabilla Octavianingrum", "\n";
+        echo "21091397067 Ariel Fikri Ramadhani", "\n";
         echo "<br>", "<br>";
-        $peg1 = new Manager("Salsabilla", 20000000);
+        $peg1 = new Manager("Ariel", 20000000);
         SoalNo1::Proses($peg1);
         echo "<br>", "<br>";
-        $peg2 = new Kurir("Asya", 15000000);
+        $peg2 = new Kurir("Fikri", 15000000);
         SoalNo1::Proses($peg2);
     }
 }
